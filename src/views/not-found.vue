@@ -8,7 +8,7 @@ import NavBar from '@/components/NavBar.vue'
     <div class="text" style="text-align: center">
       <p style="font-size: 7.5rem">404!</p>
       <p>
-        Oops! It seems you've wandered off the beaten path...
+        Oops! It seems you've wandered off the beaten path…
         <br />
         The page you're looking for is nowhere to be found.
         <br />
