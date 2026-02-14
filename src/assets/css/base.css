@@ -1,0 +1,58 @@
+@import url('https://fonts.loli.net/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.loli.net/css2?family=Noto+Emoji&display=swap');
+@import url('https://fonts.loli.net/css2?family=JetBrains+Mono&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafbfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-family: 'Noto Serif', 'Noto Emoji', 'Noto Serif SC', serif;
+}
+
+.content {
+  padding: 2rem 25vw;
+  font-size: 1rem;
+  color: #4b5566;
+}
+
+.content ::selection {
+  background-color: #e2e2da;
+}
+
+.content hr {
+  display: block;
+  border: 0 1px solid #a4a894;
+  margin: 0 0.3rem;
+}
+
+.text {
+  padding: 0 2rem;
+  line-height: 2;
+}
+
+.text p,
+ol,
+ul {
+  margin: 1.5rem 0;
+}
+
+.text strong {
+  color: #0a0b43;
+  background: linear-gradient(to right, #3a4f66, #304142) no-repeat center bottom;
+  background-size: 100% 0.8px;
+}
+
+@media (max-width: 800px) {
+  .content {
+    padding: 1rem 5vw;
+  }
+}
