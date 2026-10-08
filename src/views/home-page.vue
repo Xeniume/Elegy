@@ -28,7 +28,7 @@ import SocialCard from '@/components/SocialCard.vue'
     <div class="text">
       <p>
         Hi there! 🖖<br />
-        This is Xeniume /'zenɪəm/.
+        This is Xeniume /ˈzenɪəm/.
       </p>
 
       <p>
